@@ -1,0 +1,11 @@
+.card {
+    background: rgba(255, 255, 255, 0.2);
+    /* font-family: sans-serif; */
+    /* transform: translate(-50%, -50%); */
+    color: rgb(34, 33, 33);
+}
+
+.button {
+    background-color: rgba(247, 2, 2, 0.1);
+}
+
