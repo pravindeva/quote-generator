@@ -4,7 +4,7 @@ import "./Title.css";
 export default class Title extends Component {
   render() {
     return (
-      <div className= "f3 tc b header animate__animated animate__bounceIn animate__infinite">
+      <div className= "f3 tc b header animate__animated  animate__infinite">
         <p className="first mb0">
           <span>P</span>
           <span>O</span>
