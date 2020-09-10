@@ -2,17 +2,15 @@
     color: rgb(36, 35, 35);
 }
 
-.header span {
-    /* border-top: 1px solid rgb(255, 255, 255, 0.3); */
-    letter-spacing: 1px; 
-
+.header span{
+    margin-left: 3px;
 }
 
 .header .first span:nth-child(4),
 .header .first span:nth-child(5) {
-    color: rgb(214, 209, 209);
+    color: rgb(255, 241, 241);
 }
 
-.animate__animates {
+.animate__animated {
     --animate-duration: 2s;
 }

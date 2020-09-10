@@ -1,13 +1,14 @@
 html,
-body{
+body {
     margin: 0;
     padding: 0;
     background: url(./assets/cool-background.png) center/cover no-repeat fixed;
     width: 100%;
-    height: auto; 
+    height: auto;
 }
 
 .app {
-    text-align: center; 
-    vertical-align:middle;
+    top: 50%;
+    left: 50%;
+    transform-box: translate(-50%, -50%);
 }

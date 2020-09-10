@@ -31,12 +31,16 @@ export default class app extends Component {
     this.quoteApi();
   };
   render() {
-    return (
-      <div className="app tc">
-        <Title />
-        <Card data={this.state.qoutes} newQuote={this.quoteApi} isLoading={this.state.isLoading}/>
-        <Footer />
-      </div>
-    );
+    if (this.state.isLoading) {
+      return (
+        <div className="app tc">
+          <Title />
+          <Card data={this.state.qoutes} newQuote={this.quoteApi} />
+          <Footer />
+        </div>
+      );
+    } else {
+      return <img src="https://loading.io/asset/407614" alt="loading" className="tc v-mid"/>;
+    }
   }
 }
