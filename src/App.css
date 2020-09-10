@@ -8,11 +8,7 @@ body{
 }
 
 .app {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-flow: column;
     text-align: center; 
-    flex-wrap: wrap;
-    min-height: 100vh;
+    vertical-align:middle;
+    min-height: 50vh; 
 }
