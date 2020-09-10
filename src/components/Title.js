@@ -4,8 +4,8 @@ import "./Title.css";
 export default class Title extends Component {
   render() {
     return (
-      <div className="tc dib f3 b header animate__animated animate__jello  animate__infinite mt3 ">
-        <p className="ma0 first">
+      <div className="tc dib f3 b header animate__animated animate__jello  animate__infinite mt1 ">
+        <p className=" first">
           <span>P</span>
           <span>O</span>
           <span>S</span>
@@ -15,7 +15,7 @@ export default class Title extends Component {
           <span>V</span>
           <span>E</span>
         </p>
-        <p className="  ma0 second">
+        <p className=" mt0 second">
           <span>Q</span>
           <span>U</span>
           <span>O</span>
