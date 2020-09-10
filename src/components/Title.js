@@ -4,7 +4,7 @@ import "./Title.css";
 export default class Title extends Component {
   render() {
     return (
-      <div className="tc dib f3 b header animate__animated animate__jello  animate__infinite ">
+      <div className="tc dib f3 b header animate__animated animate__jello  animate__infinite mt3 ">
         <p className="pb1 ma0 first">
           <span>P</span>
           <span>O</span>
