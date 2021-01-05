@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import "./App.css";
 import "tachyons";
 import Card from "./components/Card";
-import Title from "./components/Title";
 import Footer from "./components/Footer";
 
 export default class app extends Component {
@@ -34,13 +33,13 @@ export default class app extends Component {
     if (this.state.isLoading) {
       return (
         <div className="app tc">
-          <Title />
           <Card data={this.state.qoutes} newQuote={this.quoteApi} />
           <Footer />
         </div>
       );
     } else {
-      return <img src="https://loading.io/asset/407614" alt="loading" className="tc v-mid"/>;
+      return <div class="loader"></div>
+      ;
     }
   }
 }

@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className="b ma2">
         <i className="fab fa-react"></i> 
-      <p>@2020 Designed by <a
+      <p>@2021 Designed by <a
           href="https://pravindeva.netlify.com"
           target="_blank"
           rel="noopener noreferrer"
