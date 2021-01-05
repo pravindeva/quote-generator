@@ -1,8 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-html{
-    box-sizing:border-box;
-}
-html,
+
 body {
     margin: 0;
     background: url(./assets/cool-background.png) center/cover no-repeat fixed;
@@ -13,5 +9,3 @@ body {
     align-items:center;
     justify-content:center;
 }
-
- */
