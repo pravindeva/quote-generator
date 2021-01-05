@@ -8,6 +8,7 @@ body {
     background: url(./assets/cool-background.png) center/cover no-repeat fixed;
     font-family: 'Montserrat', sans-serif;
     min-height:100vh;
+    font-weight:700;
 }
 
 .app {
