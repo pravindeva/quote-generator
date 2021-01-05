@@ -4,7 +4,7 @@ import "./Title.css";
 export default class Title extends Component {
   render() {
     return (
-      <div className= "f4 tc b">
+      <div className= "f4 tc b header">
         <p className="first">
           <span>P</span>
           <span>O</span>
