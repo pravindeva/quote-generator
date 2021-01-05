@@ -9,8 +9,8 @@ export default class Card extends Component {
     const {author,text}=this.props.data;
     
     return (
-      <div className="dib w-70 pa4 b card f4 shadow-5 ">
-        <p className="f4">
+      <div className="dib pa4 b card f4 shadow-5">
+        <p>
           <span>
             <i className="fa fa-quote-left pr1" aria-hidden="true"></i>{" "}
           </span>
