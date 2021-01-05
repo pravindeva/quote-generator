@@ -5,6 +5,9 @@
 .header span{
     margin-left: 1px;
 }
+.first,.second{
+    margin-bottom:1px;
+}
 
 .header .first span:nth-child(4),
 .header .first span:nth-child(5) {
