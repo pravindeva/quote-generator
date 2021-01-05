@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+html{
+    box-sizing:border-box;
+}
 html,
 body {
     margin: 0;
-    padding: 0;
     background: url(./assets/cool-background.png) center/cover no-repeat fixed;
     width: 100%;
-    height: auto;
     font-family: 'Montserrat', sans-serif;
 }
 
 .app {
-    
     top: 50%;
     left: 50%;
     transform-box: translate(-50%, -50%);
